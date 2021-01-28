@@ -23,3 +23,6 @@ members = [
 exclude = [
   "docs/book/tests",
 ]
+
+[patch.crates-io]
+actix-cors = { git = "https://github.com/DominicWrege/actix-extras.git", branch = "master"}
